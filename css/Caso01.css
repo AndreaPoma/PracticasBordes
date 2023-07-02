@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja {
+    border-radius: 20px;
+    border: 3px solid green;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0 50px #0F5464;
+}
+h1{
+    text-align: center;
+    color: #0B7B6D;
+}
+p{
+    text-align: justify;
+}
+.boton{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: green;
+    border-radius: 15px;
+    margin: 15px 10px;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+    /*Transition: background-color, color 2000ms*/
+    transition-property: background-color,color;
+    transition-duration: 2000ms; /*s=segundos=1000ms*/
+}
+.boton:hover{
+    background-color: #0F5464;
+    color: white
+}
